@@ -29,8 +29,9 @@ const codes = [
 
 function init() {
   let i = 0;
-  document.body.addEventListener('keydown', (event) => {
-    console.log("i", i)
+  const main = document.body
+  main.addEventListener('keydown', (event) => {
+    console.log("i", i) 
     console.log("event:",event)
     const key = event.key
     // if else statement
